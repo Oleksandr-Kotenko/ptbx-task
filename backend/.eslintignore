@@ -1,0 +1,10 @@
+node_modules
+dist
+coverage
+.build
+.idea
+.serverless
+.eslintrc.js
+jest.config.ts
+bin
+cdk.out

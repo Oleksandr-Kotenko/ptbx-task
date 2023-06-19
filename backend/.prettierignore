@@ -1,0 +1,11 @@
+.DS_Store
+node_modules
+dist
+coverage
+.build
+.webpack
+.serverless
+.env
+scripts
+cdk.out
+cdk.json
