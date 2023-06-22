@@ -31,7 +31,7 @@ class PtbxTaskStack extends cdk.Stack {
     const v1ApiGateway = api.root.addResource('v1');
     const getPhotoProductPath = v1ApiGateway.addResource('photo-products', {
       defaultCorsPreflightOptions: {
-        allowOrigins: ['http://localhost:3000', 'https://*'],
+        allowOrigins: apiGateway.Cors.ALL_ORIGINS,
         allowHeaders: apiGateway.Cors.DEFAULT_HEADERS.concat(['x-api-key']),
       },
     });
