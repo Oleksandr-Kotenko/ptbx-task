@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "52810cda-42d4-4e8c-9020-a615fc2038fd",
+		"name": "cdk-stack",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Endpoint for testing",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://56b3ptia99.execute-api.us-east-1.amazonaws.com/prod/v1/photo-products?border=false&sortBy=category&sortOrder=asc&texture=not applied",
+					"protocol": "https",
+					"host": [
+						"56b3ptia99",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"prod",
+						"v1",
+						"photo-products"
+					],
+					"query": [
+						{
+							"key": "border",
+							"value": "false",
+							"description": "true/false"
+						},
+						{
+							"key": "sortBy",
+							"value": "category",
+							"description": "category,orders"
+						},
+						{
+							"key": "sortOrder",
+							"value": "asc",
+							"description": "asc/desc"
+						},
+						{
+							"key": "texture",
+							"value": "not applied",
+							"description": "canvas,glossy,not applied"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

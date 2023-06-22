@@ -3,3 +3,4 @@ node_modules
 .idea
 cdk.out
 .env
+coverage
